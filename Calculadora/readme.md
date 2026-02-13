@@ -1,12 +1,18 @@
 ## Proyecto Calculadora
 
-### `Calculadora/calculadora.py`
+Estre proyecto es el primer ejercicio de clase, se trata de una calculadora basica con las 4 operaciones básicas, que se ejecuta por linea de comandos.
+
+En la carpeta SRC está el codigo
+En la carpeta Tests estan las pruebas unitarias
+
+
+### `Calculadora/SRC/calculadora.py`
 Este script implementa una calculadora básica interactiva por línea de comandos.
 - **Funciones Aritméticas**: Define funciones puras para `sumar`, `restar`, `multiplicar` y `dividir`.
 - **Manejo de Errores**: La función de división lanza un `ValueError` si se intenta dividir por cero.
 - **Interfaz de Usuario**: La función `calculadora()` ejecuta un bucle infinito que muestra un menú, captura la entrada del usuario y muestra los resultados, manejando excepciones de entrada (como texto en lugar de números).
 
-### `Calculadora/test.py`
+### `Calculadora/Test/test.py` 
 Este archivo contiene el conjunto de pruebas unitarias para validar la lógica de la calculadora.
 - **Framework**: Utiliza el módulo estándar `unittest`.
 - **Cobertura**:
